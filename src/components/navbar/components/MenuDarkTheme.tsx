@@ -8,7 +8,7 @@ function MenuDarkTheme() {
     <div>
       <label
         htmlFor="toogle-dark"
-        className=" swap-rotate swap btn-ghost btn-circle btn"
+        className="swap-rotate swap btn-ghost btn-circle btn"
       >
         <input
           id="toogle-dark"
