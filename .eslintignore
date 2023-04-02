@@ -4,6 +4,8 @@ node_modules
 yarn.lock
 package-lock.json
 coverage
+src/*.test.js
+lint-staged.config.js
 .swc
 .husky
 .json
