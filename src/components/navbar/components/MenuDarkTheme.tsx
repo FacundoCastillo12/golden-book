@@ -8,7 +8,8 @@ function MenuDarkTheme() {
     <div>
       <label
         htmlFor="toogle-dark"
-        className="swap-rotate swap btn-ghost btn-circle btn"
+        // eslint-disable-next-line prettier/prettier
+        className=" swap-rotate swap btn-ghost btn-circle btn"
       >
         <input
           id="toogle-dark"

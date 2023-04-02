@@ -1,4 +1,3 @@
-/* eslint-disable tailwindcss/classnames-order */
 /* eslint-disable jsx-a11y/label-has-associated-control */
 /* eslint-disable jsx-a11y/no-noninteractive-tabindex */
 import Link from "next/link";
