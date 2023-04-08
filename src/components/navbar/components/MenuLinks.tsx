@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 /* eslint-disable jsx-a11y/label-has-associated-control */
 /* eslint-disable jsx-a11y/label-has-for */
 /* eslint-disable jsx-a11y/no-noninteractive-tabindex */
@@ -7,7 +8,7 @@ import React from "react";
 function MenuLinks() {
   return (
     <div className="">
-      <div className="dropdown-hover dropdown">
+      <div className=" dropdown-hover dropdown">
         <label
           tabIndex={0}
           className="btn-ghost rounded-btn btn text-base capitalize"
