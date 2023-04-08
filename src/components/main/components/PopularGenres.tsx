@@ -79,10 +79,6 @@ function PopularGenres() {
               clickable: true,
             }}
             modules={[FreeMode, Pagination]}
-            autoplay={{
-              delay: 2500,
-              disableOnInteraction: false,
-            }}
             breakpoints={{
               // when window width is >= 576px
               324: {
@@ -107,8 +103,8 @@ function PopularGenres() {
             className=" text-base-content "
           >
             {filterBooksByGenre(selectedGenre).map((book) => (
-              <SwiperSlide key={`${book.id}-SlidesBooks`} className=" ">
-                <div className="m-4 flex flex-col items-center ">
+              <SwiperSlide key={`${book.id}-SlidesBooks`}>
+                <div className="m-4 flex h-[18rem] flex-col  items-center">
                   <figure className="h-[14rem] w-[9rem] overflow-hidden ">
                     <img
                       className=" origin-center transition ease-in hover:scale-105"

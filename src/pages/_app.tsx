@@ -3,6 +3,7 @@ import "@/styles/globals.css";
 import { config } from "@fortawesome/fontawesome-svg-core";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import type { AppProps } from "next/app";
+import NavbarMenu from "@/components/navbar/Navbar";
 import LanguageContextProvider, {
   LanguageContext,
 } from "@/contexts/ContextLanguage";
@@ -13,7 +14,12 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <LanguageContextProvider>
       <LanguageContext.Consumer>
-        {() => <Component {...pageProps} />}
+        {() => (
+          <>
+            <NavbarMenu />
+            <Component {...pageProps} />
+          </>
+        )}
       </LanguageContext.Consumer>
     </LanguageContextProvider>
   );

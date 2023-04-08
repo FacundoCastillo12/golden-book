@@ -24,8 +24,8 @@ function Main() {
 
         <div className="relative mx-auto flex h-full max-w-[1240px] flex-col items-center justify-center bg-blue-50 p-4 dark:bg-base-200">
           <div className="mt-4 w-[98%] items-center justify-center bg-blue-50 dark:bg-base-200">
-            <div className=" ">
-              <div className="">
+            <div>
+              <div>
                 <Carousel />
               </div>
               <div className="mt-6 flex flex-col flex-wrap justify-evenly bg-base-100 dark:bg-gray-900 sm:flex-row">

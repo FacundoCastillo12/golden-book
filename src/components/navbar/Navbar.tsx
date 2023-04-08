@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Link from "next/link";
 import MenuBells from "./components/MenuBells";
 import MenuDarkTheme from "./components/MenuDarkTheme";
 import MenuLinks from "./components/MenuLinks";
@@ -9,7 +10,7 @@ import MenuLanguage from "./components/MenuLanguage";
 import MenuTitle from "./components/MenuTitle";
 
 function NavbarMenu() {
-  const [isUserActive] = useState(true);
+  const [isUserActive] = useState(false);
   // Quizas lo de user va en un contenxt? Aprender eso.
   return (
     <header>
@@ -36,7 +37,9 @@ function NavbarMenu() {
                   type="button"
                   className="btn-outline btn-primary btn-sm btn"
                 >
-                  Login
+                  <Link href="/Account/Login" className="w-full px-1">
+                    Login
+                  </Link>
                 </button>
               </div>
             )}
