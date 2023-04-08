@@ -3,16 +3,11 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
 import "swiper/css";
-import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
-import "swiper/css/navigation";
 
 import { Pagination } from "swiper";
 import Image from "next/image";
 
-// Aqui, quiero ver si creo para el admin un tipo creacion de notificaciones.
-// La idea es que aqui, recibe las notificaciones y la mapea. -Ver si aqui se crea la carpeta
-// Carousel para guardar el texto dentro como notificaciones o si se deja asi nomas.
 function Carousel() {
   return (
     <Swiper

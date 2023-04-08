@@ -1,5 +1,3 @@
-/* eslint-disable jsx-a11y/label-has-associated-control */
-/* eslint-disable jsx-a11y/no-noninteractive-tabindex */
 import React, { useContext } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGlobe } from "@fortawesome/free-solid-svg-icons";
@@ -18,7 +16,7 @@ function MenuLanguage() {
   };
 
   return (
-    <div className="dropdown-end dropdown hidden sm:block ">
+    <div className="dropdown dropdown-end hidden sm:block ">
       <Toaster />
       <label
         htmlFor="language-icon"

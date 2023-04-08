@@ -1,12 +1,10 @@
-/* eslint-disable jsx-a11y/label-has-associated-control */
-/* eslint-disable jsx-a11y/no-noninteractive-tabindex */
 import Link from "next/link";
 import React from "react";
 import MenuDarkTheme from "./MenuDarkTheme";
 
 function MenuMobile() {
   return (
-    <div className="dropdown-end dropdown">
+    <div className="dropdown dropdown-end">
       <label tabIndex={0} className="btn-ghost btn lg:hidden">
         <svg
           xmlns="http://www.w3.org/2000/svg"

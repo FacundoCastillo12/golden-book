@@ -38,7 +38,6 @@ export default function CardSlider() {
       link: "www.google.com",
     },
   ];
-  // Aqui la idea es dismnuir el tamaño. cuando esta en un nivel de xs. Basicamente si es 320 eso se tiene que hacer mas pequeño
   return (
     <Swiper
       effect="cards"

@@ -1,7 +1,3 @@
-/* eslint-disable prettier/prettier */
-/* eslint-disable jsx-a11y/label-has-associated-control */
-/* eslint-disable jsx-a11y/label-has-for */
-/* eslint-disable jsx-a11y/no-noninteractive-tabindex */
 import Link from "next/link";
 import React from "react";
 
