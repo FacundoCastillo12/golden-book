@@ -4,12 +4,10 @@
     "browser": true,
     "es2021": true
   },
-  "plugins": ["@typescript-eslint", "prettier"],
+  "plugins": ["@typescript-eslint/eslint-plugin"],
   "extends": [
     "next",
     "next/core-web-vitals",
-    "airbnb",
-    "airbnb-typescript",
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:prettier/recommended"
@@ -24,7 +22,6 @@
     "project": "./tsconfig.json"
   },
   "rules": {
-    "prettier/prettier": "error",
     "react/jsx-props-no-spreading": "off",
     "jsx-a11y/label-has-associated-control": "off",
     "jsx-a11y/label-has-for": "off",
