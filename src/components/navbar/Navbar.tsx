@@ -33,14 +33,13 @@ function NavbarMenu() {
               <ProfileMenu />
             ) : (
               <div>
-                <button
-                  type="button"
+                <Link
+                  role="button"
                   className="btn-outline btn-primary btn-sm btn"
+                  href="/Account/Login"
                 >
-                  <Link href="/Account/Login" className="w-full px-1">
-                    Login
-                  </Link>
-                </button>
+                  Login
+                </Link>
               </div>
             )}
           </div>

@@ -1,10 +1,9 @@
-/* eslint-disable prettier/prettier */
 import Link from "next/link";
 import React from "react";
 
 function ProfileMenu() {
   return (
-    <div className="dropdown dropdown-end ">
+    <div className="dropdown-end dropdown ">
       <label tabIndex={0} className="btn-ghost btn-circle avatar btn">
         <div className="w-10 rounded-full">
           <img

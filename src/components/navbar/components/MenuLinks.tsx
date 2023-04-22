@@ -1,11 +1,10 @@
-/* eslint-disable prettier/prettier */
 import Link from "next/link";
 import React from "react";
 
 function MenuLinks() {
   return (
     <div className="">
-      <div className=" dropdown-hover dropdown">
+      <div className=" dropdown dropdown-hover">
         <label
           tabIndex={0}
           className="btn-ghost rounded-btn btn text-base capitalize"
@@ -36,7 +35,7 @@ function MenuLinks() {
           </li>
         </ul>
       </div>
-      <div className="dropdown-hover dropdown">
+      <div className="dropdown dropdown-hover">
         <label
           tabIndex={0}
           className="btn-ghost rounded-btn btn text-base capitalize"

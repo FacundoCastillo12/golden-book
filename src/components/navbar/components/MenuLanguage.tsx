@@ -1,4 +1,3 @@
-/* eslint-disable prettier/prettier */
 import React, { useContext } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGlobe } from "@fortawesome/free-solid-svg-icons";
@@ -17,7 +16,7 @@ function MenuLanguage() {
   };
 
   return (
-    <div className="dropdown dropdown-end hidden sm:block ">
+    <div className="dropdown-end dropdown hidden sm:block ">
       <Toaster />
       <label
         htmlFor="language-icon"

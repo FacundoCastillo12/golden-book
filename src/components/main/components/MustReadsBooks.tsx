@@ -16,7 +16,7 @@ function MustReadsBooks() {
             <div className="mx-1 flex flex-col text-base-content">
               <h3 className="overflow-hidden text-ellipsis text-base font-semibold">
                 <Link
-                  href="/#"
+                  href="/Novel"
                   className="hover:border-b hover:text-blue-700 dark:border-gray-500 dark:hover:text-yellow-300"
                 >
                   {book.title}

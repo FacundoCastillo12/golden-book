@@ -46,7 +46,7 @@ function SlidesBook() {
       className=" text-base-content "
     >
       {LastTenBook.map((book) => (
-        <SwiperSlide key={`${book.id}-SlidesBooks`} className=" ">
+        <SwiperSlide key={`${book.id}-SlidesBooks`}>
           <div className="m-4 flex flex-col items-center ">
             <figure className="h-[14rem] w-[9rem] overflow-hidden ">
               <img

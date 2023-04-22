@@ -38,7 +38,7 @@ function LatestReleases() {
             <div className="ml-2 flex flex-col text-center text-base-content">
               <h2 className="text-lg font-semibold">
                 <Link
-                  href="/#"
+                  href="/Novel"
                   className=" hover:border-b hover:text-blue-700 dark:border-gray-500 dark:hover:text-yellow-300"
                 >
                   {selectedBook.title}

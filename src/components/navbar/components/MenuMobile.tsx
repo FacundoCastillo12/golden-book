@@ -1,11 +1,10 @@
-/* eslint-disable prettier/prettier */
 import Link from "next/link";
 import React from "react";
 import MenuDarkTheme from "./MenuDarkTheme";
 
 function MenuMobile() {
   return (
-    <div className="dropdown dropdown-end">
+    <div className="dropdown-end dropdown">
       <label tabIndex={0} className="btn-ghost btn lg:hidden">
         <svg
           xmlns="http://www.w3.org/2000/svg"

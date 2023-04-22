@@ -27,7 +27,7 @@ function Register() {
               <p>Already have an account?</p>
               <Link
                 href="/Account/Login"
-                className="border-b border-transparent hover:border-gray-300 hover:text-blue-700 dark:border-gray-500 dark:hover:text-yellow-300"
+                className="border-b border-transparent hover:border-gray-300 hover:text-blue-700  dark:hover:text-yellow-300"
               >
                 Log in
               </Link>

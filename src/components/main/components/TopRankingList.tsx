@@ -21,7 +21,7 @@ function TopRankingList() {
                 className="flex flex-row border-b border-slate-300 p-4 dark:border-gray-700"
               >
                 <div className="h-20 w-16">
-                  <Link href="/#" className="h-full w-full cursor-pointer">
+                  <Link href="/Novel" className="h-full w-full cursor-pointer">
                     <img
                       className="h-full w-full transition ease-in hover:scale-105"
                       src={book.cover}
@@ -32,7 +32,7 @@ function TopRankingList() {
                 <div className="ml-2 flex basis-full flex-col text-left font-bold">
                   <h2>
                     <Link
-                      href="/#"
+                      href="/Novel"
                       className="cursor-pointer border-gray-300 text-lg capitalize hover:border-b hover:text-blue-700 dark:border-gray-500 dark:hover:text-yellow-300"
                     >
                       {book.title}

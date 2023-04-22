@@ -1,6 +1,7 @@
 export interface IBook {
   id: number;
   title: string;
+  description: string;
   cover: string;
   lastChapter: ILastChapter[];
   url: string;

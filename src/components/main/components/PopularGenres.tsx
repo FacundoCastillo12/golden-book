@@ -115,7 +115,7 @@ function PopularGenres() {
 
                   <h3 className=" text-center font-medium text-base-content">
                     <Link
-                      href="/#"
+                      href="/Novel"
                       className="hover:border-b hover:text-blue-700 dark:border-gray-500 dark:hover:text-yellow-300"
                     >
                       {book.title}
